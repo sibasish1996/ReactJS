@@ -1,0 +1,103 @@
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.resultField {
+    width: 60%;
+    height: 35px;
+    padding: 3px 2px 0 15px;
+    border: none;
+    background: aquamarine;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+    background-color: #189099;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.539);
+    font-family: Arial, sans-serif;
+}
+
+.mainContainer h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    height: 50%;
+    padding: 1px 0 0 10px;
+}
+
+.fieldWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    padding-left: 3%;
+ 
+}
+
+.inputWrapper {
+    width: 50%;
+    height: 35px;
+    padding: 3px 2px 0 15px;
+    border: none;
+    background: aquamarine;
+
+}
+
+.inputWrapper::-webkit-outer-spin-button,
+.inputWrapper::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* remove the number spinner*/
+    margin: 0; /* Remove margin for WebKit browsers */
+}
+.inputWrapper:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+.btnCss{
+    width: 150px;
+    height: 40px;
+    padding: 3px 2px 0 15px;
+    border: none;
+    background: rgb(225 33 33);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    color: #333;
+}
+ 
+.btnCss:hover{
+    background: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.mainContainer label{
+    color: #333;
+    font-size: 18px;
+    padding-top: 2%;
+}
+
+.resultField{
+    width: 60%;
+    height: 35px;
+    padding: 3px 2px 0 15px;
+    border: none;
+    background: aquamarine;
+    margin-top: 2%;
+}
